@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/miarchivo.js"></script>
+</head>
+<body>
+    <h1>Convertidor de divisa COP</h1>
+    <h2>Lugo International Services</h2>
+    <form class="formulario">
+        <p>Selecciona divisa a enviar</p>
+        <input type="radio" name="cambio" id="dolar"> US$
+        <input type="radio" name="cambio" id="gbp"> GBP
+        <input type="radio" name="cambio" id="eur"> EUR
+        <p>Ingrese el valor en COP</p>
+        <input type="number" id="valor" min="1" max="999999">
+        <input type="button" id="cotizador" value="Procesar" onclick="convertir()">
+    </form>
+</body>
+</html>
